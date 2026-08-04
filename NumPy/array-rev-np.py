@@ -1,0 +1,13 @@
+import numpy as np
+arr= np.array([1,2,3,4,5,6,7,8,9,10])
+print("From index 4 to end:\n",arr[4:])
+print("From starting to index :\n",arr[:4])
+print("In the Middle from index 5 to 7 :\n",arr[5:8])
+print("Normal reverse : \n",arr[::-1])
+print("Numpy reverse :\n",np.flip(arr))
+mat=np.array([[1,2,3],[4,5,6]])
+print("the 2D array: \n",mat)
+print(" Normal reverse : \n",mat[::-1])
+print("Numpy reverse :\n",np.flip(mat))
+print(" Normal reverse : \n",mat[::-1])
+print("Numpy reverse :\n",np.flip(mat))           
