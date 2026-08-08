@@ -1,0 +1,13 @@
+import numpy as np
+mat2=np.array([[[1,2,3],[4,5,6],[7,8,9]]])
+print("Given array is : \n",mat2)
+print("number of dimensions ",mat2.ndim)
+print(mat2.dtype)
+print(mat2.itemsize)
+print(mat2.ravel())
+print("First row ",mat2[0,:])
+print("first column ",mat2[:,0])
+print(mat2.shape)
+print(mat2.reshape(3,3))
+print(mat2.sum())
+print(mat2.mean())
