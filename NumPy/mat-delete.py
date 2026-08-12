@@ -1,0 +1,13 @@
+import numpy as np
+mat1=np.matrix([[1,2,3],[4,5,6],[7,8,9]])
+print("The given matrix :\n",mat1)
+mat2=np.delete(mat1,1,axis=0)
+print(mat2)
+mat3=np.delete(mat1,1,axis=1)
+print(mat3)
+mat4=np.matrix([[1,2,3],[4,5,6],[7,8,9],[11,12,13]])
+print("The given matrix :\n",mat4)
+mat5=np.delete(mat4,[0,2],axis=0)
+print(mat5)
+mat6=np.delete(mat4,[0,1],axis=1)
+print(mat6)
