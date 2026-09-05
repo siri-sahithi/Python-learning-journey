@@ -1,0 +1,11 @@
+list = [ 1, 2.5,1,1000,'Siri']
+print(list[1])
+print(list[0:4:2])
+list.append("meow")
+print(list)
+list.extend([72,55,53,32])
+print(list)
+print(list.count(1))
+list.remove(1)
+print(list)
+print(list.pop(2))
